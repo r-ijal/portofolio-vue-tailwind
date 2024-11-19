@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10" :class="{ 'navbar-fixed': scrolled }"
+    class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10" :class="{ 'navbar-fixed': scrollerStore.isScrolled }"
   >
     <div class="container">
       <div class="flex items-center justify-between relative">
@@ -24,13 +24,14 @@
 <script setup>
 import { onBeforeUnmount, onMounted, ref } from "vue";
 import HamburgerMenu from "./NavBar/HamburgerMenu.vue";
+import { useScrollerStore } from "../../stores/scroller";
 
-const scrolled = ref(false)
+const scrollerStore = useScrollerStore()
 const onScrolling = () => {
-  if (window.scrollY > 0 && !scrolled.value) {
-    scrolled.value = true
-  } else if (scrolled.value && window.scrollY === 0) {
-    scrolled.value = false
+  if (window.scrollY > 0 && !scrollerStore.isScrolled) {
+    scrollerStore.isScrolled = true
+  } else if (scrollerStore.isScrolled && window.scrollY === 0) {
+    scrollerStore.isScrolled = false
   }
 };
 

@@ -2,18 +2,18 @@
   <!-- Header -->
   <Navbar />
   <!-- Hero Section -->
-  <section id="home" class="pt-36">
+  <section id="home" class="pt-36 dark:bg-dark">
     <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full self-center px-4 lg:w-1/2">
           <h1 class="text-base font-semibold text-primary lg:text-xl">
             Hello World 👋, saya
-            <span class="block font-bold text-dark text-4xl mt-1 md:text-5xl">
+            <span class="block font-bold text-dark text-4xl mt-1 md:text-5xl dark:text-white">
               Rijal Fadhila
             </span>
           </h1>
           <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-            Frontend Developer | <span class="text-dark">Mentor</span>
+            Mentor | <span class="text-dark dark:text-white">Frontend Developer</span>
           </h2>
           <p class="font-medium text-secondary mb-10 leading-relaxed">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
@@ -32,13 +32,13 @@
         <div class="w-full self-end px-4 lg:w-1/2">
           <div class="relative mt-10 lg:mt-9 lg:right-0">
             <img
-              class="max-w-full mx-auto rounded-lg"
+              class="max-w-full mx-auto rounded-lg relative z-10"
               src="../assets/rijal_removeBg_500.png"
               alt="my picture"
             />
             <!-- https://www.blobmaker.app/ -->
             <span
-              class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125"
+              class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125"
             >
               <svg
                 width="400"
@@ -60,12 +60,12 @@
   </section>
 
   <!-- About Section -->
-  <section id="about" class="pt-36 pb-32">
+  <section id="about" class="pt-36 pb-32 dark:bg-dark">
     <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full px-4 mb-10 lg:w-1/2">
           <h4 class="font-bold uppercase text-primary text-lg">Tentang Saya</h4>
-          <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
+          <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h2>
           <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
@@ -76,7 +76,7 @@
         </div>
         <div class="w-full px-4 lg:w-1/2">
           <h3
-            class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white"
           >
             Mari berteman
           </h3>
@@ -151,12 +151,12 @@
   </section>
 
   <!-- Portofolio Section -->
-  <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+  <section id="portofolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
     <div class="container">
       <div class="w-full px-4">
         <div class="max-w-xl mx-auto text-center mb-16">
           <h4 class="font-semibold text-primary text-lg mb-2">Portofolio</h4>
-          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">
             Project Terbaru
           </h2>
           <p class="font-medium text-md text-secondary md:text-lg">
@@ -175,7 +175,7 @@
               width="w-full"
             />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
             Landing Page
           </h3>
           <p class="font-medium text-base text-secondary">
@@ -192,7 +192,7 @@
               width="w-full"
             />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">SIMPUS</h3>
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">SIMPUS</h3>
           <p class="font-medium text-base text-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
             perspiciatis adipisci fugiat accusamus aliquam quis optio sequi
@@ -207,7 +207,7 @@
               width="w-full"
             />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">HR Page</h3>
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">HR Page</h3>
           <p class="font-medium text-base text-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
             perspiciatis adipisci fugiat accusamus aliquam quis optio sequi
@@ -222,7 +222,7 @@
               width="w-full"
             />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Random 1</h3>
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Random 1</h3>
           <p class="font-medium text-base text-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
             perspiciatis adipisci fugiat accusamus aliquam quis optio sequi
@@ -237,7 +237,7 @@
               width="w-full"
             />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Random 2</h3>
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Random 2</h3>
           <p class="font-medium text-base text-secondary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
             perspiciatis adipisci fugiat accusamus aliquam quis optio sequi
@@ -252,7 +252,7 @@
               width="w-full"
             />
           </div>
-          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
             <a
               href="https://fosan-vuetify-task.netlify.app/"
               class="text-primary"
@@ -469,13 +469,38 @@
             >Rijal Fadhila</a
           >
           menggunakan
-          <a href="https://vuejs.org" target="_blank" class="font-bold text-[#42b883]">Vue</a> +
-          <a href="https://vite.dev" target="_blank" class="font-bold text-purple-600">Vite</a> +
-          <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind</a>
+          <a
+            href="https://vuejs.org"
+            target="_blank"
+            class="font-bold text-[#42b883]"
+            >Vue</a
+          >
+          +
+          <a
+            href="https://vite.dev"
+            target="_blank"
+            class="font-bold text-purple-600"
+            >Vite</a
+          >
+          +
+          <a
+            href="https://tailwindcss.com"
+            target="_blank"
+            class="font-bold text-sky-500"
+            >Tailwind</a
+          >
         </p>
       </div>
     </div>
   </footer>
+
+  <a
+    href="#home"
+    class="h-10 w-10 bg-primary rounded-full fixed z-[9999] bottom-4 right-4 p-3 flex justify-center items-center hover:animate-pulse md:h-14 md:w-14"
+    v-if="scrollerStore.isScrolled"
+  >
+    <span class="w-3 h-3 block border-t-2 border-l-2 rotate-45 mt-1 md:mt-2 md:w-5 md:h-5"></span>
+  </a>
 </template>
 
 <script setup>
@@ -483,5 +508,8 @@ import Navbar from "../components/HomePage/Navbar.vue";
 import ClientSection from "../components/HomePage/ClientSection.vue";
 import BlogSection from "../components/HomePage/BlogSection.vue";
 import ContactSection from "../components/HomePage/ContactSection.vue";
+import { useScrollerStore } from "../stores/scroller";
+
+const scrollerStore = useScrollerStore()
 </script>
 <style scoped></style>

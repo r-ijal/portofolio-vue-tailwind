@@ -1,4 +1,13 @@
-<script setup></script>
+<script setup>
+import { onMounted } from 'vue';
+import { useThemeStore } from './stores/theme';
+
+const themeStore = useThemeStore()
+
+onMounted(() => {
+  themeStore.checkTheme()
+})
+</script>
 
 <template>
   <!-- <h1 class="text-3xl font-bold underline">

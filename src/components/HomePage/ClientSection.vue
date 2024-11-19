@@ -1,11 +1,11 @@
 <template>
-  <section id="clients" class="clients pt-36 pb-32 bg-slate-800">
+  <section id="clients" class="clients pt-36 pb-32 bg-slate-800 dark:bg-slate-300">
     <div class="container">
       <div class="w-full px-4">
         <div class="mx-auto text-center mb-16">
           <h4 class="font-semibold text-primary text-lg mb-2">Clients</h4>
           <h2
-            class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark"
           >
             Yang Pernah Bekerjasama
           </h2>
